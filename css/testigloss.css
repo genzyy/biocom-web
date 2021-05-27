@@ -1,0 +1,117 @@
+/* TESTI */
+
+.testimonials{
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonials h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.testimonials h1:hover{
+    color: #F6E71D;
+    transition: 0.7s;
+}
+
+.testimonials .container .row .col-xs-12{
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: left;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) { 
+    .testimonials .container .row .col-xs-12 {
+        font-size: 18px;
+    }
+    .testimonials h1{
+        font-size: 40px;
+    }
+}
+
+
+
+ @media (max-width:991.98px) {
+     .padding {
+         padding: 1.5rem;
+     }
+ }
+
+ @media (max-width:767.98px) {
+     .padding {
+         padding: 1rem;
+     }
+    
+ }
+
+ .padding {
+     padding: 5rem;
+ }
+
+ .card {
+     position: relative;
+     display: flex;
+     width: 350px;
+     flex-direction: column;
+     min-width: 0;
+     word-wrap: break-word;
+     background-color: rgb(118, 118, 118);
+     background-clip: border-box;
+     border: 1px solid #d2d2dc;
+     border-radius: 11px;
+     -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+     -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+     box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)
+ }
+
+ .card .card-body {
+     padding: 1rem 1rem
+ }
+
+ .card-body {
+     flex: 1 1 auto;
+     padding: 1.25rem
+ }
+
+ p {
+     font-size: 0.875rem;
+     margin-bottom: .5rem;
+     line-height: 1.5rem;
+     color: #ffffff;
+ }
+
+ h4 {
+     line-height: .2 !important
+ }
+
+ .profile {
+     margin-top: 16px;
+     margin-left: 11px
+ }
+
+ .profile-pic {
+     width: 58px
+ }
+
+ .cust-name {
+     font-size: 18px;
+     color: #ffffff;
+ }
+
+ .cust-profession {
+     font-size: 15px;
+     color: #ffffff;
+ }
+
+ .items {
+     width: 90%;
+     margin: 0px auto;
+     margin-top: 100px;
+ }
+
+ .slick-slide {
+     margin: 10px;
+ }

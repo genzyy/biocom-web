@@ -1,0 +1,168 @@
+/* WHO ARE WE */
+
+.who-are-we {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.who-are-we h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.who-are-we h1:hover{
+    color: #F6E71D;
+    transition: 0.7s;
+}
+
+.who-are-we .container .row .col-xs-12 {
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: left;
+}
+
+.who-are-we .container .row .col-xs-12 p{
+    font-size: 24px;
+    text-align: left;
+    line-height: normal;
+}
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+   .who-are-we .container .row .col-xs-12 p{
+        font-size: 18px;
+    } 
+    
+    .who-are-we .container .row .col-xs-12 {
+        font-size: 18px;
+    }
+    .who-are-we h1{
+        font-size: 50px;
+    }
+}
+
+/* WHAT SITE IS FOR */
+
+.what-site-for{
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.what-site-for h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.what-site-for h1:hover{
+    color: #F6E71D;
+    transition: 0.7s;
+}
+
+.what-site-for .container .row .col-xs-12{
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: left;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+    .what-site-for .container .row .col-xs-12 {
+        font-size: 18px;
+    }
+    .what-site-for h1{
+        font-size: 45px;
+    }
+}
+
+
+/* WHAT PEOPLE EXPECT */
+
+.expect{
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.expect h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.expect h1:hover{
+    color: #F6E71D;
+    transition: 0.7s;
+}
+
+.expect .container .row .col-xs-12{
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: left;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) { 
+    .expect .container .row .col-xs-12 {
+        font-size: 18px;
+    }
+    .expect h1{
+        font-size: 40px;
+    }
+}
+
+
+/* HOW HELPFUL */
+
+.helpful{
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.helpful h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.helpful h1:hover{
+    color: #F6E71D;
+    transition: 0.7s;
+}
+
+.helpful .container .row .col-xs-12{
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: left;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) { 
+    .helpful .container .row .col-xs-12 {
+        font-size: 18px;
+    }
+    .helpful h1{
+        font-size: 40px;
+    }
+}
+
+
+/* ANIMATION */
+
+body{
+    animation: transitionIn 1s ease-in;
+    
+}
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

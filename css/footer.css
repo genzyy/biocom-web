@@ -1,0 +1,212 @@
+.new_footer_area {
+    background: #161616;
+    width: 95%;
+    height: auto;
+}
+
+
+.new_footer_top {
+    padding: 120px 0px 270px;
+    position: relative;
+    overflow-x: hidden;
+}
+.new_footer_area .footer_bottom {
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+.footer_bottom {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    padding: 27px 0px;
+}
+.new_footer_top .company_widget p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.new_footer_top .company_widget .f_subscribe_two .btn_get {
+    border-width: 1px;
+    margin-top: 20px;
+}
+.btn_get_two:hover {
+    background: transparent;
+    color: #F6E71D;
+}
+.btn_get:hover {
+    color: #F6E71D;
+    background: #F6E71D;
+    border-color: #6754e2;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+.new_footer_top .f_widget.about-widget .f_list li a:hover {
+    color: #F6E71D;
+}
+.new_footer_top .f_widget.about-widget .f_list li {
+    margin-bottom: 11px;
+}
+.f_widget.about-widget .f_list li:last-child {
+    margin-bottom: 0px;
+}
+.f_widget.about-widget .f_list li {
+    margin-bottom: 15px;
+}
+.f_widget.about-widget .f_list {
+    margin-bottom: 0px;
+}
+.new_footer_top .f_social_icon a {
+    width: 44px;
+    height: 44px;
+    line-height: 43px;
+    background: transparent;
+    border: 1px solid #fafafa;
+    font-size: 25px;
+}
+.f_social_icon a {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 45px;
+    color: #ffffff;
+    display: inline-block;
+    background: #ffffff;
+    text-align: center;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.ti-facebook:before {
+    content: "\e741";
+}
+.ti-twitter:before {
+    content: "\e74b";
+}
+.ti-linkedin:before {
+    content: "\e74a";
+}
+.ti-instagram:before {
+    content: "\e731";
+}
+
+.btn_get_two {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #F5D10D;
+    border-color: #F5D10D;
+    color: #000000;
+}
+
+.btn_get_two:hover {
+    background: transparent;
+    color: #F5D10D;
+}
+
+.new_footer_top .f_social_icon a:hover {
+    background: #F5D10D;
+    border-color: #F5D10D;
+    color:white;
+}
+
+
+.new_footer_top .f_social_icon a + a {
+    margin-left: 4px;
+}
+.new_footer_top .f-title {
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+.f_600 {
+    font-weight: 600;
+}
+.f_size_18 {
+    font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+.new_footer_top .f_widget.about-widget .f_list li a {
+    color: #ffffff;
+}
+
+
+.new_footer_top .footer_bg {
+    position: absolute;
+    bottom: 0;
+    background: url("http://droitthemes.com/html/saasland/img/seo/footer_bg.png") no-repeat scroll center 0;
+    width: 100%;
+    height: 266px;
+}
+
+.new_footer_top .footer_bg .footer_bg_one {
+    background: url("./img/medicalfront.gif") no-repeat center center;
+    width: 330px;
+    height: 300px;
+  background-size:100%;
+    position: absolute;
+    left: 41%;
+    bottom: 0;
+    
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    .new_footer_top .footer_bg .footer_bg_one{
+        width: 300px;
+        height: 250px;
+        left: 5%;
+        bottom: 0;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .new_footer_top .footer_bg .footer_bg_one {
+        width: 300px;
+        height: 250px;
+        left: 35%;
+        bottom: 0px;
+    }
+}
+
+
+
+@-moz-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@-webkit-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+
+
+  
