@@ -1,0 +1,105 @@
+/* ARTCILE1 -- Theoretical approaches to psychotherapy */
+
+
+.arcimg1{
+    width: 40%;
+    height: auto;
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 1.5rem;
+    color: #F6E71D;
+}
+
+.arcname{
+    text-align: right;
+    margin-right: 570px;
+    margin-top: 10px;
+}
+
+.paragraph{
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.paragraph p{
+    color: white;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.paragraph ul{
+    color: white;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.psy{
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reference{
+    font-size: 22px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.reference ul{
+   color: #F6E71D; 
+}
+
+.reference ul li a{
+    color: #F6E71D;
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+.reference ul li a:hover{
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .heading{
+        font-size: 50px;
+    }
+    
+    .arcname{
+        margin-left: 525px;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+    .arcimg1{
+        width: 60%;
+        height: auto;
+    }
+    
+    .heading{
+        font-size: 40px;
+    }
+    
+    .arcname{
+        margin-left: 160px;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 20px;
+    }
+}
