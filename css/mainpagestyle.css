@@ -46,7 +46,7 @@ nav{
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .navbar-light .navbar-collapse .nav-link {
-        font-size: 15px;
+        font-size: 12px;
     }
     .navbar-light .navbar-collapse #mainleft{
         margin-left: 90px;
