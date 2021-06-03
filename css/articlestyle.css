@@ -18,12 +18,23 @@
   text-decoration: none;
   border-radius: 10px;
   font-size: 20px;
+    text-align: center;
 }
  
 .sidebar a:hover {
   background-color: #020202;
   color: white;
   transition: 0.7s;
+}
+
+.sidebar-hori{
+    width: 100%;
+    height: 2px;
+}
+
+.sidebar-head{
+    color: black;
+    text-align: center;
 }
 
 
@@ -149,17 +160,29 @@
         margin-left: auto;
         margin-right: auto;
     }
+    
+    .image{
+        width: 150%;
+        height: auto;
+        margin-left: -33px;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .row{
         margin-top: 20px;
-        margin-left: 180px;
-        width: 80%;
+        margin-left: 120px;
+        width: 90%;
     }
     
     .column{
         margin-bottom: 30px;
+        margin-right: 40px;
+    }
+    
+    .image{
+        width: 120%;
+        height: auto;
     }
 }
 
