@@ -1,240 +1,397 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap and Other CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
-    
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./css/mainpagestyle.css">
-    <link rel="stylesheet" href="./css/testigloss.css"> 
-    <link rel="stylesheet" href="./css/footer.css"> 
-    <link rel="stylesheet" href="./css/aboutusbiocomstyle.css">
-      
-   
-    <title>BioCom</title>
-  </head>
+  <!-- Bootstrap and Other CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/mainpagestyle.css">
+  <link rel="stylesheet" href="./css/testigloss.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/aboutusbiocomstyle.css">
+
+
+  <title>BioCom</title>
+
+</head>
+
 <body>
 
 
-<img src="./css/img/logo.png" class="logo-mob" alt="Main Mobile Logo">
-<nav class="navbar navbar-expand-lg navbar-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" id="mainleft" href="./index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./article.html">Article</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./glossary.html">Glossary</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            About Us
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="./aboutus-biocom.html">BioCom</a></li>
-            <li><a class="dropdown-item" href="./aboutuspp.html">Project Pandemic</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            External Links
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="https://www.ncbi.nlm.nih.gov/">NCBI</a></li>
-            <li><a class="dropdown-item" href="https://sci-hub.se/">Scihub</a></li>
-            <li><a class="dropdown-item" href="https://www.elsevier.com/en-in/open-access/open-access-journals">Elsevier</a></li>
-            <li><a class="dropdown-item" href="https://www.sciencedirect.com/">Science Direct</a></li>
-            <li><a class="dropdown-item" href="https://scholar.google.com/">Google Scholar</a></li>
-            <li><a class="dropdown-item" href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></li>
-            <li><a class="dropdown-item" href="https://www.nature.com/">Nature</a></li>
-            <li><a class="dropdown-item" href="https://academic.microsoft.com/home">Microsoft Academic</a></li>
-            <li><a class="dropdown-item" href="https://www.researchgate.net/">Research Gate</a></li>
-            <li><a class="dropdown-item" href="https://www.science.gov/">Science Gov</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
-        <button class="btn btn-dark" type="submit">Search</button>
-      </form>
+  <img src="./css/img/logo.png" class="logo-mob" alt="Main Mobile Logo">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" id="mainleft" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./article.html">Article</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./glossary.html">Glossary</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About Us
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./aboutus-biocom.html">BioCom</a></li>
+              <li><a class="dropdown-item" href="./aboutuspp.html">Project Pandemic</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              External Links
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="https://www.ncbi.nlm.nih.gov/">NCBI</a></li>
+              <li><a class="dropdown-item" href="https://sci-hub.se/">Scihub</a></li>
+              <li><a class="dropdown-item" href="https://www.elsevier.com/en-in/open-access/open-access-journals">Elsevier</a></li>
+              <li><a class="dropdown-item" href="https://www.sciencedirect.com/">Science Direct</a></li>
+              <li><a class="dropdown-item" href="https://scholar.google.com/">Google Scholar</a></li>
+              <li><a class="dropdown-item" href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></li>
+              <li><a class="dropdown-item" href="https://www.nature.com/">Nature</a></li>
+              <li><a class="dropdown-item" href="https://academic.microsoft.com/home">Microsoft Academic</a></li>
+              <li><a class="dropdown-item" href="https://www.researchgate.net/">Research Gate</a></li>
+              <li><a class="dropdown-item" href="https://www.science.gov/">Science Gov</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+          <button class="btn btn-dark" type="submit">Search</button>
+        </form>
+      </div>
     </div>
+  </nav>
+
+  <img src="./css/img/logo.png" class="logo" alt="Main Logo">
+
+  <section class="who-are-we">
+    <h1>Who are we?</h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <hr style="height:5px;border-width:0;color:#F5D10D;background-color:#F5D10D">
+          BioCom, founded in December of 2019, is the first student-led Life Sciences &amp; Bioengineering oriented community incubated in SRM IST.
+          Our club hosts a plethora of events including debates, hackathons, and interactive sessions with experts in various fields.
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--<section id="pictures">
+
+      <div id="pictures-carousel" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="hover">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="testimonial-image" src="css/img/img7.jpg" alt="">
+          </div>
+          <div class="carousel-item">
+            <img class="testimonial-image" src="css/img/img8.jpg" alt="">
+          </div>
+          <div class="carousel-item">
+            <img class="testimonial-image" src="css/img/img9.jpg" alt="">
+          </div>
+          <div class="carousel-item">
+            <img class="testimonial-image" src="css/img/img10.jpg" alt="">
+          </div>
+          <div class="carousel-item">
+            <img class="testimonial-image" src="css/img/img11.jpg" alt="">
+          </div>
+          <div class="carousel-item">
+            <img class="testimonial-image" src="css/img/img12.jpg" alt="">
+          </div>
+          <div class="carousel-item">
+            <img class="testimonial-image" src="css/img/img13.jpg" alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#pictures-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"</span>
+
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#pictures-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"</span>
+
+        </button>
+      </div>
+
+    </section>-->
+
+
+
+
+  <section id="features">
+
+    <h2>OUR DOMAINS</h2>
+    <div class="row">
+
+      <div class="feature-box col-lg-4">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="48" height="48"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#f1c40f"><path d="M86,14.33333c-26.45933,0 -49.5538,14.448 -61.96647,35.83333h17.49675c6.45,-7.96933 14.86658,-14.27634 24.66341,-17.90267c-2.24317,5.21733 -4.04099,11.30934 -5.41699,17.90267h14.73925c3.43283,-14.1685 8.24089,-21.5 10.48405,-21.5c2.24317,0 7.05122,7.3315 10.48405,21.5h14.73925c-1.376,-6.59333 -3.18099,-12.68534 -5.41699,-17.90267c9.78967,3.62633 18.21341,9.93334 24.66341,17.90267h17.49674c-12.41267,-21.38533 -35.50714,-35.83333 -61.96647,-35.83333zM7.16667,64.5l8.90234,43h9.37825l6.08887,-24.87337l6.07487,24.87337h9.33626l8.90234,-43h-10.778l-3.84928,24.11751l-5.72493,-24.11751h-7.97852l-5.73893,24.15951l-3.80729,-24.15951zM61.65853,64.5l8.90234,43h9.37826l6.08886,-24.87337l6.07487,24.87337h9.33627l8.90234,-43h-10.764l-3.86328,24.11751l-5.71094,-24.11751h-7.99252l-5.72493,24.15951l-3.82129,-24.15951zM116.15039,64.5l5.9209,28.58268c2.30767,-3.03867 5.00032,-5.75819 8.14649,-7.92253l-3.26139,-20.66015zM136.5026,64.5l-4.67513,19.72233c4.75867,-2.924 10.234,-4.71421 16.125,-5.13705l-3.47135,-14.58528zM154.05534,64.5l-2.30957,14.45931c3.397,0.11467 6.63936,0.76751 9.72819,1.76367l3.35938,-16.22298zM150.5,93.16667c-14.663,0 -21.5,12.82833 -21.5,21.5h14.33333c0,-1.1825 1.247,-7.16667 7.16667,-7.16667c7.08783,0 7.16667,7.095 7.16667,7.16667c0,7.55367 -14.33333,21.67917 -14.33333,28.66667h14.33333c0,-7.06633 14.33333,-18.47567 14.33333,-28.66667c0,-10.57083 -8.041,-21.5 -21.5,-21.5zM24.03353,121.83333c12.41267,21.38533 35.50714,35.83333 61.96647,35.83333c16.1895,0 31.03816,-5.51161 43.02799,-14.61328c0.07167,-4.95934 1.95415,-9.52406 4.57715,-14.05339h-4.60514h-5.52897c-5.16717,4.558 -11.07138,8.29217 -17.66472,10.736c2.236,-5.21733 4.02699,-11.30934 5.40299,-17.90267h-14.73925c-3.43283,14.1685 -8.24089,21.5 -10.48405,21.5c-2.24317,0 -7.03722,-7.3315 -10.47006,-21.5h-14.73925c1.376,6.59333 3.18099,12.68534 5.41699,17.90267c-9.78967,-3.62633 -18.21341,-9.93334 -24.66341,-17.90267zM143.33333,157.66667v14.33333h14.33333v-14.33333z"></path></g></g></svg>
+        <h3>The Strategy & implementation Domain</h3>
+        <p>The "Backbone" of Biocom</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="64" height="64"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#f1c40f"><path d="M86,8.0625c-19.61875,0 -38.29687,7.25625 -52.80937,20.55938c-14.24375,13.16875 -23.1125,31.175 -24.85938,50.525c-0.13438,2.15 1.47812,4.16563 3.7625,4.3c2.15,0.26875 4.16562,-1.47813 4.43437,-3.62813c1.47813,-17.33437 9.40625,-33.325 22.30625,-45.15c4.97187,-4.56875 10.48125,-8.33125 16.52813,-11.2875c0.67188,20.15625 7.25625,39.37188 18.67813,55.76563c-12.76563,10.88438 -28.35313,18.40937 -45.28438,21.5c-2.15,-5.375 -7.525,-9.1375 -13.70625,-9.1375c-8.46562,-0.13438 -15.05,6.45 -15.05,14.64687c0,8.19687 6.58438,14.78125 14.78125,14.78125c7.25625,0 13.4375,-5.375 14.5125,-12.3625c18.54375,-3.225 35.475,-11.42187 49.31563,-23.1125c1.34375,1.6125 2.6875,3.225 4.16563,4.8375c1.075,1.075 2.01563,2.15 3.09062,3.225c-0.80625,1.88125 -1.34375,3.89688 -1.34375,6.04688c0,8.19687 6.58438,14.78125 14.78125,14.78125c3.62812,0 6.9875,-1.34375 9.54062,-3.49375c3.09063,1.74688 6.31562,3.35938 9.675,4.70313c-8.33125,15.72188 -19.8875,29.5625 -34.13125,40.3125c-21.63437,-0.40312 -41.3875,-10.61562 -54.42187,-28.08438c-1.34375,-1.74687 -3.89687,-2.15 -5.64375,-0.80625c-1.74687,1.34375 -2.15,3.89687 -0.80625,5.64375c14.91562,19.8875 37.625,31.30937 62.48438,31.30937c43,0 77.9375,-34.9375 77.9375,-77.9375c0,-43 -34.9375,-77.9375 -77.9375,-77.9375zM14.78125,112.875c-3.7625,0 -6.71875,-2.95625 -6.71875,-6.71875c0,-3.7625 2.95625,-6.71875 6.71875,-6.71875c3.7625,0 6.71875,2.95625 6.71875,6.71875c0,3.7625 -2.95625,6.71875 -6.71875,6.71875zM79.81875,73.50313c-10.75,-15.72187 -16.52812,-34.26562 -16.6625,-53.48125c7.25625,-2.55313 14.91563,-3.89688 22.84375,-3.89688c7.12188,0 14.10938,1.075 20.55938,3.09062c-2.82188,21.09688 -12.63125,39.90937 -26.74063,54.2875zM99.4375,106.15625c-3.7625,0 -6.71875,-2.95625 -6.71875,-6.71875c0,-3.7625 2.95625,-6.71875 6.71875,-6.71875c3.7625,0 6.71875,2.95625 6.71875,6.71875c0,3.7625 -2.95625,6.71875 -6.71875,6.71875zM113.54688,104.00625c0.40313,-1.47812 0.67188,-2.95625 0.67188,-4.56875c0,-8.19687 -6.58438,-14.78125 -14.78125,-14.78125c-3.09063,0 -5.9125,0.94062 -8.33125,2.55313c-0.80625,-0.80625 -1.6125,-1.6125 -2.41875,-2.41875c-1.34375,-1.6125 -2.6875,-3.225 -4.03125,-4.8375c15.45313,-15.31875 26.20313,-35.34063 29.69687,-57.78125c24.45625,10.88437 41.52188,35.34062 41.52188,63.82812c0,10.34687 -2.28438,20.15625 -6.31563,29.025c-6.71875,-0.67187 -13.30312,-2.01562 -19.75312,-4.03125c5.9125,-13.03437 9.80937,-27.27812 11.825,-42.19375c0.26875,-2.15 -1.20938,-4.16563 -3.49375,-4.56875c-2.15,-0.26875 -4.16562,1.20937 -4.56875,3.49375c-1.88125,14.37812 -5.77813,28.08438 -11.42187,40.44688c-2.95625,-1.20938 -5.77813,-2.6875 -8.6,-4.16562zM98.3625,154.8c11.2875,-10.34688 20.69375,-22.70938 27.95,-36.55c6.18125,2.01563 12.63125,3.49375 19.08125,4.43438c-10.2125,16.52813 -27.14375,28.4875 -47.03125,32.11563z"></path></g></g></svg>
+        <h3>The Life sciences Domain</h3>
+        <p>Composed of Biomedicals,Bioinformatics,Oncology & immunology & the Physocology sub-domains</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="48" height="48"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#f1c40f"><path d="M86,14.33333c-26.45933,0 -49.5538,14.448 -61.96647,35.83333h17.49675c6.45,-7.96933 14.86658,-14.27634 24.66341,-17.90267c-2.24317,5.21733 -4.04099,11.30934 -5.41699,17.90267h14.73925c3.43283,-14.1685 8.24089,-21.5 10.48405,-21.5c2.24317,0 7.05122,7.3315 10.48405,21.5h14.73925c-1.376,-6.59333 -3.18099,-12.68534 -5.41699,-17.90267c9.78967,3.62633 18.21341,9.93334 24.66341,17.90267h17.49674c-12.41267,-21.38533 -35.50714,-35.83333 -61.96647,-35.83333zM7.16667,64.5l8.90234,43h9.37825l6.08887,-24.87337l6.07487,24.87337h9.33626l8.90234,-43h-10.778l-3.84928,24.11751l-5.72493,-24.11751h-7.97852l-5.73893,24.15951l-3.80729,-24.15951zM61.65853,64.5l8.90234,43h9.37826l6.08886,-24.87337l6.07487,24.87337h9.33627l8.90234,-43h-10.764l-3.86328,24.11751l-5.71094,-24.11751h-7.99252l-5.72493,24.15951l-3.82129,-24.15951zM116.15039,64.5l5.9209,28.58268c2.30767,-3.03867 5.00032,-5.75819 8.14649,-7.92253l-3.26139,-20.66015zM136.5026,64.5l-4.67513,19.72233c4.75867,-2.924 10.234,-4.71421 16.125,-5.13705l-3.47135,-14.58528zM154.05534,64.5l-2.30957,14.45931c3.397,0.11467 6.63936,0.76751 9.72819,1.76367l3.35938,-16.22298zM150.5,93.16667c-14.663,0 -21.5,12.82833 -21.5,21.5h14.33333c0,-1.1825 1.247,-7.16667 7.16667,-7.16667c7.08783,0 7.16667,7.095 7.16667,7.16667c0,7.55367 -14.33333,21.67917 -14.33333,28.66667h14.33333c0,-7.06633 14.33333,-18.47567 14.33333,-28.66667c0,-10.57083 -8.041,-21.5 -21.5,-21.5zM24.03353,121.83333c12.41267,21.38533 35.50714,35.83333 61.96647,35.83333c16.1895,0 31.03816,-5.51161 43.02799,-14.61328c0.07167,-4.95934 1.95415,-9.52406 4.57715,-14.05339h-4.60514h-5.52897c-5.16717,4.558 -11.07138,8.29217 -17.66472,10.736c2.236,-5.21733 4.02699,-11.30934 5.40299,-17.90267h-14.73925c-3.43283,14.1685 -8.24089,21.5 -10.48405,21.5c-2.24317,0 -7.03722,-7.3315 -10.47006,-21.5h-14.73925c1.376,6.59333 3.18099,12.68534 5.41699,17.90267c-9.78967,-3.62633 -18.21341,-9.93334 -24.66341,-17.90267zM143.33333,157.66667v14.33333h14.33333v-14.33333z"></path></g></g></svg>
+        <h3>Public Relations</h3>
+        <p>Comprises the content and communication & management sub-domain putting all our ideas into actions.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="features-features">
+
+    <div class="row">
+
+      <div class="feature-box col-lg-4">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+    width="64" height="64"
+    viewBox="0 0 172 172"
+    style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#f1c40f"><path d="M77.9375,8.0625c-24.82788,0 -46.97876,11.69483 -61.2561,29.84595c-0.03149,0.04199 -0.08398,0.07349 -0.11548,0.12598c-0.021,0.0105 -0.0105,0.03149 -0.021,0.05249c-10.35107,13.22754 -16.54492,29.85645 -16.54492,47.91309c0,18.03565 6.17285,34.63306 16.49243,47.8606c0.03149,0.05249 0.03149,0.10498 0.06299,0.16797c0.14697,0.23096 0.33594,0.41992 0.5354,0.59839c14.29834,17.84668 36.24976,29.31055 60.84668,29.31055c12.44018,0 24.1875,-2.92896 34.61206,-8.11499l2.1311,5.34351c0.36743,0.94483 1.25977,1.58521 2.27808,1.66919c1.01831,0.08398 1.99463,-0.40942 2.53003,-1.29126l10.26709,-17.38477l2.7085,-4.59814l1.0498,1.0498l23.91455,23.94604c0.5144,0.48291 1.20728,0.77685 1.91065,0.77685c0.72436,0 1.39624,-0.29395 1.91064,-0.77685l7.42212,-7.44311c1.03931,-1.0498 1.03931,-2.73999 0,-3.7898l-24.97485,-24.96435l21.87793,-12.9021c0.86084,-0.51441 1.37524,-1.51172 1.29126,-2.53003c-0.08398,-1.01831 -0.72436,-1.91064 -1.66919,-2.27808l-11.90478,-4.73462c1.69018,-6.34082 2.58252,-13.03857 2.58252,-19.91479c0,-18.07764 -6.20435,-34.71704 -16.56592,-47.95508l-0.0105,-0.0105c-0.0105,-0.0105 -0.02099,-0.0105 -0.02099,-0.03149c-14.27734,-18.20361 -36.45972,-29.94043 -61.34009,-29.94043zM75.25,13.67896v37.39404c-10.24609,-0.17847 -20.10376,-1.38574 -29.06909,-3.52734c6.33032,-19.06445 17.12232,-32.14502 29.06909,-33.8667zM80.625,13.67896c11.94678,1.72168 22.73877,14.80224 29.06909,33.8667c-8.96533,2.1416 -18.823,3.34888 -29.06909,3.52734zM59.00952,15.95703c-7.5061,6.63477 -13.81543,17.12232 -18.09863,30.19238c-6.67676,-1.94214 -12.76562,-4.40918 -18.00415,-7.38013c9.35376,-10.87598 21.86743,-18.95947 36.10278,-22.81226zM96.86548,15.95703c14.23535,3.85278 26.74902,11.93628 36.09228,22.81226c-5.22803,2.97095 -11.31689,5.43799 -17.99365,7.38013c-4.2832,-13.07007 -10.59253,-23.55762 -18.09863,-30.19238zM19.52637,43.0105c5.74243,3.34888 12.46118,6.13086 19.8623,8.28296c-1.77417,6.50879 -3.07593,13.54248 -3.80029,21.00659c-0.14697,1.48022 0.94482,2.79248 2.41455,2.93945c1.50122,0.13647 2.79248,-0.94483 2.93945,-2.42505c0.69287,-7.13867 1.97363,-13.87842 3.68482,-20.11426c9.46924,2.27808 19.85181,3.56934 30.6228,3.7478v16.1145c0,1.48022 1.20728,2.6875 2.6875,2.6875c1.48022,0 2.6875,-1.20728 2.6875,-2.6875v-16.1145c10.771,-0.17847 21.15357,-1.46973 30.6228,-3.7478c1.71118,6.23584 2.99195,12.98608 3.68482,20.12476c0.13647,1.39624 1.30176,2.43555 2.677,2.43555c0.08398,0 0.16797,-0.0105 0.26245,-0.0105c1.46973,-0.14697 2.56152,-1.45923 2.41455,-2.93945c-0.72437,-7.46411 -2.02613,-14.5083 -3.80029,-21.01709c7.40112,-2.1521 14.11987,-4.93408 19.8623,-8.28296c8.89185,12.04126 14.15137,26.90649 14.15137,42.9895c0,6.18335 -0.77685,12.19873 -2.22559,17.93066l-40.77441,-16.19849v-4.41968c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v2.29907l-14.91772,-5.9209c-0.99732,-0.37793 -2.12061,-0.13647 -2.87647,0.60889c-0.74536,0.75586 -0.98682,1.87915 -0.60889,2.87647l13.35352,33.59375c-5.33301,-0.69287 -10.85498,-1.02881 -16.45044,-1.12329v-16.20898c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v16.16699c-10.77099,0.17847 -21.15357,1.46973 -30.6123,3.7478c-1.72168,-6.25684 -3.01294,-13.01758 -3.70581,-20.17724c-0.13647,-1.45923 -1.42773,-2.56152 -2.92896,-2.39355c-1.48022,0.12598 -2.55103,1.44873 -2.42505,2.91846c0.72437,7.48511 2.03662,14.5398 3.81079,21.05908c-7.38013,2.1521 -14.08838,4.92358 -19.84131,8.27246c-8.90234,-12.05176 -14.17236,-26.93799 -14.17236,-43.03149c0,-16.08301 5.25952,-30.94824 14.15137,-42.9895zM10.75,80.625c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.20728,2.6875 2.6875,2.6875c1.48022,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875zM24.1875,80.625c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.20728,2.6875 2.6875,2.6875c1.48022,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875zM37.625,80.625c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.20728,2.6875 2.6875,2.6875c1.48022,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875zM51.0625,80.625c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.20728,2.6875 2.6875,2.6875c1.48022,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875zM64.5,80.625c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.20728,2.6875 2.6875,2.6875c1.48022,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875zM77.9375,80.625c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.20728,2.6875 2.6875,2.6875c1.48022,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875zM118.25,80.625c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.20728,2.6875 2.6875,2.6875c1.48022,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875zM131.6875,80.625c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.20728,2.6875 2.6875,2.6875c1.48022,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875zM145.125,80.625c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.20728,2.6875 2.6875,2.6875c1.48022,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875zM91.02857,86.99732l25.39478,10.07813l3.67432,1.44873l26.61255,10.56104l4.99707,1.98413l6.39331,2.53003l-9.72119,5.75293l-9.1333,5.375l-1.27026,0.74536c-0.70337,0.43042 -1.18628,1.16528 -1.29126,1.99463c-0.05249,0.32544 -0.02099,0.64038 0.05249,0.94482c0.11548,0.48291 0.35693,0.93433 0.70337,1.29126l2.1731,2.1731l0.03149,0.05249l23.32666,23.30566l-3.63232,3.59033l-22.22437,-22.19287l-3.30688,-3.30689c-0.15747,-0.18896 -0.37793,-0.32544 -0.58789,-0.46191c-0.37793,-0.20996 -0.82935,-0.33594 -1.29126,-0.33594c-0.10498,0 -0.24146,0.021 -0.34643,0.021c-0.82935,0.10498 -1.56421,0.58789 -1.96314,1.32275l-3.97876,6.71875l-7.06518,11.89429l-0.94483,1.58521l-0.31494,-0.82935l-2.01562,-5.08105l-4.57715,-11.52685l-2.81348,-7.14917l-2.34107,-5.85791l-2.36206,-5.9104zM75.25,120.97949v37.34155c-11.93628,-1.72168 -22.71777,-14.77075 -29.05859,-33.81421c8.96533,-2.1416 18.8125,-3.34888 29.05859,-3.52734zM80.625,120.97949c6.4248,0.12598 12.71314,0.61939 18.70752,1.54321l5.47998,13.78393c-6.29883,12.53467 -14.90723,20.70215 -24.1875,22.0459zM40.93189,125.90308c4.27271,13.05957 10.58203,23.51563 18.07764,30.13989c-14.22485,-3.84228 -26.71753,-11.91528 -36.07129,-22.78076c5.23853,-2.96045 11.32739,-5.41699 17.99365,-7.35913zM107.41602,142.86792l3.14941,7.89453c-4.3252,2.20459 -8.91284,3.95777 -13.67896,5.24902c3.86328,-3.42236 7.42212,-7.84204 10.52954,-13.14355z"></path></g></g></svg>
+        <h3>The Marketing Team</h3>
+        <p>Plots categories to further our reach.</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="48" height="48"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#f1c40f"><path d="M86,14.33333c-23.37767,0 -44.09986,11.30183 -57.19336,28.66667h-0.13997v0.18197c-7.0735,9.44567 -11.91346,20.66105 -13.63346,32.86588c-4.58667,32.5295 14.60936,62.72535 44.6377,76.03385c9.08733,4.02767 17.90043,5.57813 26.35709,5.57097c3.956,0.00717 7.13867,-3.25299 7.13867,-7.19466v-7.12468v-50.16667c0,-3.956 -3.21067,-7.16667 -7.16667,-7.16667h-14.33333c-3.956,0 -7.16667,-3.21067 -7.16667,-7.16667c0,-3.98467 3.25165,-7.21683 7.25065,-7.16667c3.92733,0.05017 7.08268,-3.23933 7.08268,-7.16667v-7.16667c0,-3.956 3.21067,-7.16667 7.16667,-7.16667h7.16667c7.91917,0 14.33333,-6.41417 14.33333,-14.33333v-2.93945c20.984,8.52833 35.83333,29.09779 35.83333,53.10612c0,0.086 -0.014,0.16595 -0.014,0.25195c0,0 0.02775,-0.00007 0.02799,0c0.13557,3.85389 3.2964,6.90957 7.15267,6.91472c3.95804,0 7.16667,-3.20863 7.16667,-7.16667c0.00119,-0.22427 -0.00815,-0.44848 -0.02799,-0.67187c-0.36576,-39.2056 -32.34826,-70.99479 -71.63867,-70.99479zM30.16439,73.16439l34.33561,34.33561v7.16667c0,7.91917 6.41417,14.33333 14.33333,14.33333v13.84343c-28.23667,-3.5475 -50.16667,-27.66076 -50.16667,-56.84343c0,-4.41467 0.55172,-8.70045 1.49772,-12.83561zM112.03515,78.66536c-2.40125,0.3104 -4.53515,2.27878 -4.53515,5.12305v51.18848c0,3.14617 3.7747,4.76102 6.06087,2.58952l10.2321,-9.72818l11.08593,25.55924c1.91351,4.4075 7.06421,6.39434 11.43588,4.40918c4.31433,-1.96367 6.2257,-7.05155 4.2692,-11.36588l-11.14193,-24.60742h11.2959c3.225,0 4.81353,-3.92285 2.49153,-6.15885l-36.98112,-35.59538c-1.23087,-1.1825 -2.77246,-1.59997 -4.21322,-1.41374z"></path></g></g></svg>
+        <h3>The Design Team</h3>
+        <p>Brings life to other subdomains ideas with their creativity & Talent</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="64" height="64"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#f1c40f"><path d="M77.9375,8.0625c-24.82788,0 -46.97876,11.69483 -61.2561,29.84595c-0.03149,0.04199 -0.08398,0.07349 -0.11548,0.12598c-0.021,0.0105 -0.0105,0.03149 -0.021,0.05249c-10.35107,13.22754 -16.54492,29.85645 -16.54492,47.91309c0,18.03565 6.17285,34.63306 16.49243,47.8606c0.03149,0.05249 0.03149,0.10498 0.06299,0.16797c0.14697,0.23096 0.33594,0.41992 0.5354,0.59839c14.29834,17.84668 36.24976,29.31055 60.84668,29.31055c12.44018,0 24.1875,-2.92896 34.61206,-8.11499l2.1311,5.34351c0.36743,0.94483 1.25977,1.58521 2.27808,1.66919c1.01831,0.08398 1.99463,-0.40942 2.53003,-1.29126l10.26709,-17.38477l2.7085,-4.59814l1.0498,1.0498l23.91455,23.94604c0.5144,0.48291 1.20728,0.77685 1.91065,0.77685c0.72436,0 1.39624,-0.29395 1.91064,-0.77685l7.42212,-7.44311c1.03931,-1.0498 1.03931,-2.73999 0,-3.7898l-24.97485,-24.96435l21.87793,-12.9021c0.86084,-0.51441 1.37524,-1.51172 1.29126,-2.53003c-0.08398,-1.01831 -0.72436,-1.91064 -1.66919,-2.27808l-11.90478,-4.73462c1.69018,-6.34082 2.58252,-13.03857 2.58252,-19.91479c0,-18.07764 -6.20435,-34.71704 -16.56592,-47.95508l-0.0105,-0.0105c-0.0105,-0.0105 -0.02099,-0.0105 -0.02099,-0.03149c-14.27734,-18.20361 -36.45972,-29.94043 -61.34009,-29.94043zM75.25,13.67896v37.39404c-10.24609,-0.17847 -20.10376,-1.38574 -29.06909,-3.52734c6.33032,-19.06445 17.12232,-32.14502 29.06909,-33.8667zM80.625,13.67896c11.94678,1.72168 22.73877,14.80224 29.06909,33.8667c-8.96533,2.1416 -18.823,3.34888 -29.06909,3.52734zM59.00952,15.95703c-7.5061,6.63477 -13.81543,17.12232 -18.09863,30.19238c-6.67676,-1.94214 -12.76562,-4.40918 -18.00415,-7.38013c9.35376,-10.87598 21.86743,-18.95947 36.10278,-22.81226zM96.86548,15.95703c14.23535,3.85278 26.74902,11.93628 36.09228,22.81226c-5.22803,2.97095 -11.31689,5.43799 -17.99365,7.38013c-4.2832,-13.07007 -10.59253,-23.55762 -18.09863,-30.19238zM19.52637,43.0105c5.74243,3.34888 12.46118,6.13086 19.8623,8.28296c-1.77417,6.50879 -3.07593,13.54248 -3.80029,21.00659c-0.14697,1.48022 0.94482,2.79248 2.41455,2.93945c1.50122,0.13647 2.79248,-0.94483 2.93945,-2.42505c0.69287,-7.13867 1.97363,-13.87842 3.68482,-20.11426c9.46924,2.27808 19.85181,3.56934 30.6228,3.7478v16.1145c0,1.48022 1.20728,2.6875 2.6875,2.6875c1.48022,0 2.6875,-1.20728 2.6875,-2.6875v-16.1145c10.771,-0.17847 21.15357,-1.46973 30.6228,-3.7478c1.71118,6.23584 2.99195,12.98608 3.68482,20.12476c0.13647,1.39624 1.30176,2.43555 2.677,2.43555c0.08398,0 0.16797,-0.0105 0.26245,-0.0105c1.46973,-0.14697 2.56152,-1.45923 2.41455,-2.93945c-0.72437,-7.46411 -2.02613,-14.5083 -3.80029,-21.01709c7.40112,-2.1521 14.11987,-4.93408 19.8623,-8.28296c8.89185,12.04126 14.15137,26.90649 14.15137,42.9895c0,6.18335 -0.77685,12.19873 -2.22559,17.93066l-40.77441,-16.19849v-4.41968c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v2.29907l-14.91772,-5.9209c-0.99732,-0.37793 -2.12061,-0.13647 -2.87647,0.60889c-0.74536,0.75586 -0.98682,1.87915 -0.60889,2.87647l13.35352,33.59375c-5.33301,-0.69287 -10.85498,-1.02881 -16.45044,-1.12329v-16.20898c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v16.16699c-10.77099,0.17847 -21.15357,1.46973 -30.6123,3.7478c-1.72168,-6.25684 -3.01294,-13.01758 -3.70581,-20.17724c-0.13647,-1.45923 -1.42773,-2.56152 -2.92896,-2.39355c-1.48022,0.12598 -2.55103,1.44873 -2.42505,2.91846c0.72437,7.48511 2.03662,14.5398 3.81079,21.05908c-7.38013,2.1521 -14.08838,4.92358 -19.84131,8.27246c-8.90234,-12.05176 -14.17236,-26.93799 -14.17236,-43.03149c0,-16.08301 5.25952,-30.94824 14.15137,-42.9895zM10.75,80.625c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.20728,2.6875 2.6875,2.6875c1.48022,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875zM24.1875,80.625c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.20728,2.6875 2.6875,2.6875c1.48022,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875zM37.625,80.625c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.20728,2.6875 2.6875,2.6875c1.48022,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875zM51.0625,80.625c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.20728,2.6875 2.6875,2.6875c1.48022,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875zM64.5,80.625c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.20728,2.6875 2.6875,2.6875c1.48022,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875zM77.9375,80.625c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.20728,2.6875 2.6875,2.6875c1.48022,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875zM118.25,80.625c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.20728,2.6875 2.6875,2.6875c1.48022,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875zM131.6875,80.625c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.20728,2.6875 2.6875,2.6875c1.48022,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875zM145.125,80.625c-1.48022,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.20728,2.6875 2.6875,2.6875c1.48022,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.20728,-2.6875 -2.6875,-2.6875zM91.02857,86.99732l25.39478,10.07813l3.67432,1.44873l26.61255,10.56104l4.99707,1.98413l6.39331,2.53003l-9.72119,5.75293l-9.1333,5.375l-1.27026,0.74536c-0.70337,0.43042 -1.18628,1.16528 -1.29126,1.99463c-0.05249,0.32544 -0.02099,0.64038 0.05249,0.94482c0.11548,0.48291 0.35693,0.93433 0.70337,1.29126l2.1731,2.1731l0.03149,0.05249l23.32666,23.30566l-3.63232,3.59033l-22.22437,-22.19287l-3.30688,-3.30689c-0.15747,-0.18896 -0.37793,-0.32544 -0.58789,-0.46191c-0.37793,-0.20996 -0.82935,-0.33594 -1.29126,-0.33594c-0.10498,0 -0.24146,0.021 -0.34643,0.021c-0.82935,0.10498 -1.56421,0.58789 -1.96314,1.32275l-3.97876,6.71875l-7.06518,11.89429l-0.94483,1.58521l-0.31494,-0.82935l-2.01562,-5.08105l-4.57715,-11.52685l-2.81348,-7.14917l-2.34107,-5.85791l-2.36206,-5.9104zM75.25,120.97949v37.34155c-11.93628,-1.72168 -22.71777,-14.77075 -29.05859,-33.81421c8.96533,-2.1416 18.8125,-3.34888 29.05859,-3.52734zM80.625,120.97949c6.4248,0.12598 12.71314,0.61939 18.70752,1.54321l5.47998,13.78393c-6.29883,12.53467 -14.90723,20.70215 -24.1875,22.0459zM40.93189,125.90308c4.27271,13.05957 10.58203,23.51563 18.07764,30.13989c-14.22485,-3.84228 -26.71753,-11.91528 -36.07129,-22.78076c5.23853,-2.96045 11.32739,-5.41699 17.99365,-7.35913zM107.41602,142.86792l3.14941,7.89453c-4.3252,2.20459 -8.91284,3.95777 -13.67896,5.24902c3.86328,-3.42236 7.42212,-7.84204 10.52954,-13.14355z"></path></g></g></svg>
+        <h3>The Sponsorship Team</h3>
+        <p>Responsible for managing the cash & kind cycle.</p>
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <div class="box">
+
+    <section class="what-site-for">
+
+
+      <div class="card border-warning mb-3 " style="max-width: 24rem;">
+        <div class="card-header">
+          <h2>What?</h2>
+        </div>
+        <img class="image" src="css/img/question.png" alt="ques-mark" width="50px">
+        <div class="card-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+                This site serves to update you about all the social, scientific, and ecological aspects of the COVID-19 pandemic. Readers can educate themselves about the ongoing pandemic, its biology and how it has impacted people worldwide.
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="expect">
+      <div class="card border-warning mb-3 " style="max-width: 24rem;">
+        <div class="card-header">
+          <h2>Expectation</h2>
+        </div>
+        <img class="image" src="css/img/flag.png" alt="flag" width="50px">
+        <div class="card-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                People can expect a wide variety of content- from previews for articles and journals, glossaries to assist you with typical scientific terms to testimonials of all the resources and stories of COVID-19, and so much more.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="helpful">
+      <div class="card border-warning mb-3 " style="max-width: 24rem;">
+        <div class="card-header">
+          <h2>How?</h2>
+        </div>
+        <img class="image" src="css/img/request.png" alt="" width="50px">
+        <div class="card-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                Our site is a one-stop destination for all the pandemic know-how. Project Pandemic aims to serve all necessary information regarding the pandemic on a single platform- all you need at the click of a button! Explore our site.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
   </div>
-</nav>
- 
-  <img src="./css/img/logo.png" class="logo" alt="Main Logo"> 
 
+  <section class="team">
+    <h1>Meet Our Team</h1>
+    <p>The Biggest Strength of BioCom is the unity among its members.Our team work & camaraderie help propel our community to greater heights.</p>
+    <a class="explore" href="Explore.html">Explore</a>
+  </section>
 
+<h1 class="our">OUR PARTNERS</h1>
+<section class="partners">
 
-  
-  
-  
-<section class="who-are-we">
-    <h1>Who are we ?</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          BioCom, founded in December of 2019, is the first student-led Life Sciences &amp; Bioengineering oriented community incubated in SRM IST. We encourage peer to peer teaching and aim to explore the diversity of the Sci-Tech world and bring forward some erudite innovations. One such step in our mission is bringing to you this edifying website!
-Our club hosts a plethora of events including debates, hackathons, and interactive sessions with experts in various fields. Recently, a debate titled ‘What’s in the Pot’ was organized to talk about the possibility of Cannabis being legalized in medicine. Another session titled ‘BioMatrix’ which helped teach the basics of Biopython, a tool used by bioinformaticians, was also met with immensely positive responses.
-
-        </div>
+      <div class="item">
+        <img src="css/img/cambrionics.png" alt="" width="100px">
       </div>
-      <div class="row">
-        <div class="col-xs-12">
-          img
-        </div>
+      <div class="item">
+        <img src="css/img/yourfriend.png" alt="" width="100px">
       </div>
-      <div class="row">
-        <div class="col-xs-12">
-          Moreover, we also interact with our large audience through several social media platforms such as Instagram, Facebook, Medium and LinkedIn, where we frequently put up informative posts about diverse aspects of biology.<br>
-          BioCom comprises several domains that work together as a team to achieve success.<br>
-          <p>● <span style="text-decoration: underline">The Strategy and Implementation domain</span> – The “Backbone" of BioCom.<br>
-          ●  <span style="text-decoration: underline">The Life Sciences domain</span> – Composed of the Biomedical, Bioinformatics, Oncology and Immunology and the Psychology sub-domains. It plays a fundamental role in any Sci-Tech community.<br>
-          ●  <span style="text-decoration: underline">Public Relations</span> – Comprises the Content and Communication &amp; Management sub-domains, putting all our ideas into action.<br>
-          ●  <span style="text-decoration: underline">The Marketing Team</span> – Plots strategies to further our reach.<br>
-          ●  <span style="text-decoration: underline">The Sponsorship Team</span> – Responsible for managing the cash &amp; kind cycle.<br>
-          ●  <span style="text-decoration: underline">The Design Team</span> – Brings life to other subdomains’ ideas with their creativity and talent.<br></p>
+      <div class="item">
+        <img src="css/img/campus.png" alt="" width="100px">
+      </div>
+      <div class="item">
+        <img src="css/img/SIIC.png" alt="" width="100px">
+      </div>
+      <div class="item">
+        <img src="css/img/srmpediaicon.png" alt="" width="100px">
+      </div>
 
-        </div>
-      </div>
-    </div>
 </section>
- 
- 
- <section class="what-site-for">
-     <h1>What is this site for ?</h1>
-     <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          This site serves to update you about all the social, scientific, and ecological aspects of the COVID-19 pandemic. Readers can educate themselves about the ongoing pandemic, its biology and how it has impacted people worldwide.
-        </div>
-      </div>
-    </div>
- </section>
-  
- 
 
-<section class="expect">
-    <h1>What can people expect ?</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-           People can expect a wide variety of content- from previews for articles and journals, glossaries to assist you with typical scientific terms to testimonials of all the resources and stories of COVID-19, and so much more.
-        </div>
-      </div>
-    </div>
-</section>   
-       
 
-<section class="helpful">
-    <h1>How is it helpful ?</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-           Our site is a one-stop destination for all the pandemic know-how. Project Pandemic aims to serve all necessary information regarding the pandemic on a single platform- all you need at the click of a button! Explore our site and quench your curiosity.
-        </div>
-      </div>
-    </div>
-</section>   
-        
-  
 
-   
+
+
+
+
+
   <footer class="new_footer_area bg_color">
-            <div class="new_footer_top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6">
-                            <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
-                                <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
-                                <p>Don’t miss any updates of our new articles and extensions !</p>
-                                <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
-                                    <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
-                                    <button class="btn btn_get btn_get_two" type="submit">Mail Us</button>
-                                    <p class="mchimp-errmessage" style="display: none;"></p>
-                                    <p class="mchimp-sucmessage" style="display: none;"></p>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
-                                <h3 class="f-title f_600 t_color f_size_18">BioCom</h3>
-                                <ul class="list-unstyled f_list">
-                                    <li><a href="./aboutus-biocom.html" style="text-decoration: none">Community</a></li>
-                                    <li><a href="./" style="text-decoration: none">External Links</a></li>
-                                    <li><a href="#" style="text-decoration: none">Projects</a></li>
-                                    <li><a href="#" style="text-decoration: none">Our Tasks</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
-                                <h3 class="f-title f_600 t_color f_size_18">Help</h3>
-                                <ul class="list-unstyled f_list">
-                                    <li><a href="./aboutuspp.html" style="text-decoration: none">FAQ</a></li>
-                                    <li><a href="./aboutus-biocom.html" style="text-decoration: none">About Us</a></li>
-                                    <li><a href="./aboutuspp.html" style="text-decoration: none">Our Corporate Team</a></li>
-                                    <li><a href="./aboutuspp.html" style="text-decoration: none">Collaboration</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
-                                <h3 class="f-title f_600 t_color f_size_18">Socials</h3>
-                                <div class="f_social_icon">
-                                    <a href="#" class="fa fa-facebook" style="text-decoration: none"></a>
-                                    <a href="#" class="fa fa-twitter" style="text-decoration: none"></a>
-                                    <a href="#" class="fa fa-linkedin" style="text-decoration: none"></a>
-                                    <a href="https://www.instagram.com/biocom_srm/" class="fa fa-instagram" style="text-decoration: none"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer_bg">
-                    <div class="footer_bg_one"></div>
-                    <div class="footer_bg_two"></div>
-                </div>
+    <div class="new_footer_top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+              <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
+              <p>Don’t miss any updates of our new articles and extensions !</p>
+              <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
+                <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
+                <button class="btn btn_get btn_get_two" type="submit">Mail Us</button>
+                <p class="mchimp-errmessage" style="display: none;"></p>
+                <p class="mchimp-sucmessage" style="display: none;"></p>
+              </form>
             </div>
-            <div class="footer_bottom">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 col-sm-7">
-                            <p class="mb-0 f_400">© BioCom Inc.. 20xx All rights reserved.</p>
-                        </div>
-                        <div class="col-lg-6 col-sm-5 text-right">
-                            <p class="footer-heart">
-  Made with <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">
-<img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png"></g-emoji> by <a href="#">BioCom</a>
-</p>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+              <h3 class="f-title f_600 t_color f_size_18">BioCom</h3>
+              <ul class="list-unstyled f_list">
+                <li><a href="./aboutus-biocom.html" style="text-decoration: none">Community</a></li>
+                <li><a href="./" style="text-decoration: none">External Links</a></li>
+                <li><a href="#" style="text-decoration: none">Projects</a></li>
+                <li><a href="#" style="text-decoration: none">Our Tasks</a></li>
+              </ul>
             </div>
-        </footer>  
-   
-   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <script src="js/testi.js" defer></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  </body>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+              <h3 class="f-title f_600 t_color f_size_18">Help</h3>
+              <ul class="list-unstyled f_list">
+                <li><a href="./aboutuspp.html" style="text-decoration: none">FAQ</a></li>
+                <li><a href="./aboutus-biocom.html" style="text-decoration: none">About Us</a></li>
+                <li><a href="./aboutuspp.html" style="text-decoration: none">Our Corporate Team</a></li>
+                <li><a href="./aboutuspp.html" style="text-decoration: none">Collaboration</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+              <h3 class="f-title f_600 t_color f_size_18">Socials</h3>
+              <div class="f_social_icon">
+                <a href="#" class="fa fa-facebook" style="text-decoration: none"></a>
+                <a href="#" class="fa fa-twitter" style="text-decoration: none"></a>
+                <a href="#" class="fa fa-linkedin" style="text-decoration: none"></a>
+                <a href="https://www.instagram.com/biocom_srm/" class="fa fa-instagram" style="text-decoration: none"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bg">
+        <div class="footer_bg_one"></div>
+        <div class="footer_bg_two"></div>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-sm-7">
+            <p class="mb-0 f_400">© BioCom Inc.. 20xx All rights reserved.</p>
+          </div>
+          <div class="col-lg-6 col-sm-5 text-right">
+            <p class="footer-heart">
+              Made with <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">
+                <img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">
+              </g-emoji> by <a href="#">BioCom</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <script src="js/testi.js" defer></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</body>
+
 </html>
